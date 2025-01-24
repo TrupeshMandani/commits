@@ -5,7 +5,7 @@ import time
 from datetime import datetime
 
 # Configuration
-REPO_PATH = "path/to/your/repo"  # Replace with the path to your GitHub repository
+REPO_PATH = "https://github.com/TrupeshMandani/commits"  # Replace with the path to your GitHub repository
 FILE_NAME = "log.txt"            # The file to update
 MIN_COMMITS = 5                  # Minimum commits per day
 MAX_COMMITS = 7                  # Maximum commits per day
