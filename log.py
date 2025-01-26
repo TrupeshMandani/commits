@@ -7,8 +7,8 @@ from datetime import datetime
 # Configuration
 REPO_PATH = "/Users/trupeshmandani/Desktop/Code/commits"  # Replace with the path to your GitHub repository
 FILE_NAME = "log.txt"            # The file to update
-MIN_COMMITS = 5                  # Minimum commits per day
-MAX_COMMITS = 7                  # Maximum commits per day
+MIN_COMMITS = 10                 # Minimum commits per day
+MAX_COMMITS = 20                  # Maximum commits per day
 
 # Function to run shell commands
 def run_command(command, cwd=None):
