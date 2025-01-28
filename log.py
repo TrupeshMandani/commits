@@ -42,7 +42,7 @@ def main():
         print(f"Committed: {commit_message}")
 
         # Wait for a random time before the next commit (e.g., 1-4 hours)
-        sleep_time = random.randint(3600, 7200 )  # 1-4 hours in seconds
+        sleep_time = random.randint(3600, 5400 )  # 1-2 hours in seconds
         print(f"Waiting for {sleep_time / 3600:.2f} hours before the next commit.")
         time.sleep(sleep_time)
 
