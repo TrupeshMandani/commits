@@ -7,8 +7,8 @@ from datetime import datetime
 # Configuration
 REPO_PATH = "/Users/trupeshmandani/Desktop/Code/commits"  # Replace with your repository path
 FILE_NAME = "log.txt"
-MIN_COMMITS = 10
-MAX_COMMITS = 20
+MIN_COMMITS = 7
+MAX_COMMITS = 14
 
 # Function to run shell commands
 def run_command(command, cwd=None):
